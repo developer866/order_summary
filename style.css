@@ -1,0 +1,156 @@
+body{
+    /* background-color:hsl(225, 100%, 94%); */
+    background: url(./images/pattern-background-desktop.svg) center  center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display";
+}
+#illustration-hero{
+    width: 100%;
+    height: 200px;
+    border-radius: 1.4rem 1.4rem 0 0;
+}
+.container{
+    text-align: center;
+    border-radius: 1.4rem;
+    width:25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+}
+.sub-content{
+   padding: 30px;
+   margin-top: -20px;
+
+}
+.annual{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    padding-left: 5px;
+    padding-right:5px ;
+}
+.plan{
+    margin-left:19px;
+}
+.plan p{
+    margin-top:-19px ;
+}
+.item:last-child{
+    flex: 3;
+    text-align: right;
+    color: hsl(225, 100%, 94%);
+    font-size: 16px;
+}
+
+button{
+    font-weight: 700;
+    background:  hsl(245, 75%, 52%);
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 10px 0px hsl(224, 23%, 55%);
+}
+button:hover{
+    background: black;
+}
+#cancel{
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 16px;
+}
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width:400px){
+    body{
+        background: url(./images/pattern-background-mobile.svg) center/cover no-repeat;
+        background-color:hsl(225, 100%, 94%);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Red Hat Display";
+    }
+    #illustration-hero{
+        width: 300px;
+        height: 200px;
+        border-radius: 1.4rem 1.4rem 0 0;
+    }
+    .container{
+        text-align: center;
+        border-radius: 1.4rem;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+    }
+    .sub-content{
+       padding: 30px;
+       margin-top: -20px;
+
+    }
+    .annual{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: hsl(225, 100%, 98%);
+        border-radius: 10px;
+        width: 100%;
+        margin: 0;
+        padding-left: 5px;
+        padding-right:5px ;
+    }
+    .plan{
+        margin-left:19px;
+    }
+    .plan p{
+        margin-top:-19px ;
+    }
+    .item:last-child{
+        flex: 3;
+        text-align: right;
+        color: hsl(225, 100%, 94%);
+        font-size: 16px;
+    }
+   
+    button{
+        font-weight: 700;
+        background:  hsl(245, 75%, 52%);
+        color: white;
+        padding: 1rem;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 10px 10px 0px hsl(224, 23%, 55%);
+    }
+    button:hover{
+        background: black;
+    }
+    #cancel{
+        color:hsl(224, 23%, 55%);
+        font-weight: 500;
+        margin: 0px;
+        margin-top: 16px;
+    }
+    #cancel:hover{
+        color: hsl(223, 47%, 23%);
+    }
+}
+
+
+
