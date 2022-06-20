@@ -2,6 +2,7 @@ body{
     /* background-color:hsl(225, 100%, 94%); */
     background: url(pattern-background-desktop.svg) center  center/cover no-repeat;
     margin: 0;
+    background-color: hsl(225, 100%, 98%);
     padding: 0;
     box-sizing: border-box;
     font-family: "Red Hat Display";
