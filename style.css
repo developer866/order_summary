@@ -75,7 +75,7 @@ button:hover{
     color: hsl(223, 47%, 23%);
 }
 
-@media (max-width:400px){
+@media (max-width:320px){
     body{
         background: url(pattern-background-mobile.svg) center/cover no-repeat;
         background-color:hsl(225, 100%, 94%);
