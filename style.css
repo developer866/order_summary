@@ -75,6 +75,9 @@ button:hover{
     color: hsl(223, 47%, 23%);
 }
 
+
+/* 
+
 @media (max-width:475px){
     body{
         background: url(pattern-background-mobile.svg) center/cover no-repeat;
@@ -151,7 +154,7 @@ button:hover{
     #cancel:hover{
         color: hsl(223, 47%, 23%);
     }
-}
+}*/
 
 
 
