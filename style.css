@@ -94,10 +94,8 @@ button:hover{
     color: hsl(223, 47%, 23%);
     cursor: pointer;
 }
-@media(max-width:425px){
+@media(max-width:500px){
     body{
         background:hsl(224, 23%, 55%);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
