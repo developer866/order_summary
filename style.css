@@ -97,7 +97,6 @@ button:hover{
 @media(max-width:425px){
     body{
         background:hsl(224, 23%, 55%);
-        background-image: url(/pattern-background-mobile.svg) ;
         background-repeat: no-repeat;
         background-size: cover;
     }
